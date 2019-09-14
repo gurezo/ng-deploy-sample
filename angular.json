@@ -121,8 +121,13 @@
               "devServerTarget": "ng-deploy-sample:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-deploy-sample"
 }
